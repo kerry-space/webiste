@@ -1,0 +1,38 @@
+
+/* SASS variable*/
+$text-color: red;
+$main-fonts: Lobster, Monospace;
+
+/*SASS function=@mixin with parameter($radius) */
+@mixin border-radius($X,){
+    -webkit-border-radius:$X;
+  }
+
+body{
+    .container-fluid{
+
+        
+
+    .logo{
+
+
+        .nest2{
+
+
+            .kerry-space{
+                font-family:$main-fonts;
+            }
+        }
+
+        .nest3{
+            .img-size {
+                width: 400px;
+                border: 15px solid red;
+               
+                @include border-radius(200px);
+                
+            }
+        }
+    }
+  }
+}

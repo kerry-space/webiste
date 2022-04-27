@@ -1,0 +1,12 @@
+/* SASS variable*/
+/*SASS function=@mixin with parameter($radius) */
+body .container-fluid .logo .nest2 .kerry-space {
+  font-family: Lobster, Monospace;
+}
+
+body .container-fluid .logo .nest3 .img-size {
+  width: 400px;
+  border: 15px solid red;
+  -webkit-border-radius: 200px;
+}
+/*# sourceMappingURL=index.css.map */
